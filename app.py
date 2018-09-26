@@ -39,9 +39,9 @@ def handle_message(event):
     msg = event.message.text
     r = '晚點再請小編回覆喔!'
 
-    if msg == 'HI'
+    if msg == 'HI':
         r = 'HI'
-    elif msg == '你好嗎'
+    elif msg == '你好嗎':
         r = '很好啊，你呢?'
     
     line_bot_api.reply_message(
