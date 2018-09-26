@@ -43,7 +43,7 @@ def handle_message(event):
         r = 'HI'
     elif msg == '你好嗎':
         r = '很好啊，你呢?'
-    elif msg == '你是誰?'
+    elif msg == '你是誰?':
         r = '我是機器寇蒂!'
     elif '訂餐' in msg:
         r = '請問要訂什麼呢'
